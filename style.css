@@ -1,0 +1,129 @@
+/* Global Styles */
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #EEEEEE;
+    color: #333;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  /* Header */
+  header {
+    background-color: #FF8000;
+    color: #FFFFFF;
+    padding: 20px 0;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+  }
+  
+  header p {
+    font-size: 1.2rem;
+  }
+  
+  header nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  header nav ul li {
+    display: inline;
+    margin: 0 15px;
+  }
+  
+  header nav ul li a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  /* Home Section */
+  #home {
+    background: linear-gradient(135deg, #FF8000, #4C1F7A);
+    color: #FFFFFF;
+    padding: 50px 0;
+  }
+  
+  #home h2 {
+    font-size: 2rem;
+  }
+  
+  #home p {
+    font-size: 1.2rem;
+  }
+  
+  .profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* About Section */
+  #about {
+    background-color: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    padding: 50px 0;
+  }
+  
+  #about h2 {
+    font-size: 1.8rem;
+    color: #4C1F7A;
+  }
+  
+  /* Education Section */
+  #education {
+    background-color: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    padding: 50px 0;
+  }
+  
+  #education h2 {
+    font-size: 1.8rem;
+    color: #4C1F7A;
+  }
+  
+  #education ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  #education ul li {
+    margin: 10px 0;
+    font-size: 1.2rem;
+  }
+  
+  /* Contact Section */
+  #contact {
+    background-color: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    padding: 50px 0;
+  }
+  
+  #contact h2 {
+    font-size: 1.8rem;
+    color: #4C1F7A;
+  }
+  
+  #contact a {
+    color: #FF8000;
+    text-decoration: none;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #219B9D;
+    color: #FFFFFF;
+    padding: 10px 0;
+    text-align: center;
+  }
+  
